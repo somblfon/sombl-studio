@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombl Studio | سمبل ستديو</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="app-header">
+        <div class="logo-area">
+            <img src="logo.png" alt="">
+        </div>
+        <div class="header-icons">
+            <a href="#" class="icon-btn"><i class="fas fa-bell"></i></a>
+            <a href="#" class="icon-btn"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </header>
+
+    <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <span>ابحث عن خدمة أو لعبة...</span>
+    </div>
+
+    <section class="hero-section">
+        <div class="hero-banner">
+            <div class="hero-content">
+                <p>مرحباً بك في عالم الإبداع</p>
+                <h1>حـول فكرتـك<br>لواقـع رقـمـي</h1>
+                <a href="https://wa.me/message/DGLDSERPZQFVN1" class="hero-btn">
+                    ابدأ مشروعك الآن <i class="fas fa-arrow-left"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="categories-scroll">
+        <div class="category-chip active"><i class="fas fa-star"></i> الكل</div>
+        <div class="category-chip" ><i class="fas fa-camera"></i></a> تصوير</div>
+        <div class="category-chip"><i class="fas fa-laptop-code"></i> ويب</div>
+        <div class="category-chip"><i class="fas fa-gamepad"></i> ألعاب</div>
+        <div class="category-chip"><i class="fas fa-satellite"></i> ستارلينك</div>
+    </div>
+
+    <div class="section-header">
+        <h2 class="section-title">خدماتنا المميزة</h2>
+        <a href="#serv" class="view-all">عرض الكل</a>
+    </div>
+
+    <div class="horizontal-scroll-container">
+        <div class="service-card">
+            <div class="service-icon-box" style="background: #e3f2fd; color: #2196f3;">
+                <i class="fas fa-camera"></i>
+            </div>
+            <h3 class="service-name">تصوير احترافي</h3>
+            <p class="service-price">يبدأ من ٢٠٠٠٠ ج</p>
+            <button class="add-btn" onclick="window.location.href='https://wa.me/message/DGLDSERPZQFVN1'">
+                <i class="fas fa-plus"></i> طلب خدمة
+            </button>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon-box" style="background: #fce4ec; color: #e91e63;">
+                <i class="fab fa-cc-visa"></i>
+            </div>
+            <h3 class="service-name">بطاقة فيزا كارد</h3>
+            <p class="service-price">إستخراج  دولية</p>
+            <button class="add-btn" onclick="window.location.href='https://wa.me/message/DGLDSERPZQFVN1'">
+                <i class="fas fa-plus"></i> طلب خدمة
+            </button>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon-box" style="background: #e8f5e9; color: #4caf50;">
+                <i class="fab fa-facebook"></i>
+            </div>
+            <h3 class="service-name">مشاكل الصفحات</h3>
+            <p class="service-price">حل جميع المشاكل</p>
+            <button class="add-btn" onclick="window.location.href='https://wa.me/message/DGLDSERPZQFVN1'">
+                <i class="fas fa-plus"></i> طلب خدمة
+            </button>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon-box" style="background: #fff3e0; color: #ff9800;">
+                <i class="fas fa-palette"></i>
+            </div>
+            <h3 class="service-name">جرافيك ديزاين</h3>
+            <p class="service-price">بأسعار رمزية</p>
+            <button class="add-btn" onclick="window.location.href='https://wa.me/message/DGLDSERPZQFVN1'">
+                <i class="fas fa-plus"></i> طلب خدمة
+            </button>
+        </div>
+    </div>
+
+    <div class="section-header">
+        <h2 class="section-title">المتجر و ستارلينك</h2>
+        <span class="view-all">جديد 🔥</span>
+    </div>
+
+    <div class="horizontal-scroll-container">
+        <div class="service-card">
+            <div class="service-icon-box" style="background: #2d3436; color: white;">
+                <i class="fas fa-satellite-dish"></i>
+            </div>
+            <h3 class="service-name">خدمات ستارلينك</h3>
+            <p class="service-price">معالجة حسابات وتنشيط</p>
+            <button class="add-btn">
+                <i class="fas fa-shopping-cart"></i> شراء
+            </button>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon-box" style="background: linear-gradient(45deg, #f1c40f, #f39c12); color: white;">
+                <i class="fas fa-gamepad"></i>
+            </div>
+            <h3 class="service-name">شحن ألعاب</h3>
+            <p class="service-price">فوري وآمن</p>
+            <button class="add-btn">
+                <i class="fas fa-shopping-cart"></i> شحن
+            </button>
+        </div>
+    </div>
+
+    <div class="section-header" id="portfolio">
+        <h2 class="section-title">أحدث أعمالنا</h2>
+    </div>
+
+    <div class="portfolio-grid">
+        <div class="project-card">
+            <div class="project-img">
+                <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80" alt="تصوير" style="width:100%; height:100%; object-fit:cover;">
+            </div>
+            <div class="project-content">
+                <span class="project-tag">تصوير خارجي</span>
+                <h3 class="project-title">جولات منظمة NHCR</h3>
+                <div class="project-meta">
+                    <span><i class="fas fa-calendar"></i> يناير 2024</span>
+                    <span><i class="fas fa-star" style="color: gold;"></i> 5.0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80" alt="ويب" style="width:100%; height:100%; object-fit:cover;">
+            </div>
+            <div class="project-content">
+                <span class="project-tag">ويب ديزاين</span>
+                <h3 class="project-title">منصة مراسل حر الإخبارية</h3>
+                <div class="project-meta">
+                    <span><i class="fas fa-code"></i> React.js</span>
+                    <span><i class="fas fa-check-circle"></i> مكتمل</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stats-row">
+        <div class="stat-item">
+            <div class="stat-num">+200</div>
+            <div class="stat-lbl">مشروع</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-num">+150</div>
+            <div class="stat-lbl">عميل</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-num">98%</div>
+            <div class="stat-lbl">رضا</div>
+        </div>
+    </div>
+    
+    <div class="section-header" style="margin-top: 30px;" id="services">
+    <h2 class="section-title">متجر شحن الألعاب</h2>
+    <span class="view-all">عروض حصرية 🔥</span>
+    </div>
+    
+    <div class="games-grid">
+    <div class="game-card">
+    <div class="game-img-box">
+    <img src="f02ea04b2a60971910f8cc3f31ecc662.jpg" alt="Free Fire">
+    <span class="game-badge">الأكثر طلباً</span>
+    </div>
+    <div class="game-info">
+    <h3>Free Fire</h3>
+    <p>جواهر وعروض</p>
+    <button class="topup-btn" onclick="addToCart('100$ شحن فري فاير')">
+    شحن الآن <i class="fas fa-bolt"></i>
+    </button>
+    </div>
+    </div>
+    
+    <div class="game-card">
+    <div class="game-img-box">
+    <img src="1edae571cb3b8a90e84f43ee7ef66419.jpg" alt="PUBG">
+    </div>
+    <div class="game-info">
+    <h3>PUBG Mobile</h3>
+    <p>شدات UC</p>
+    <button class="topup-btn" onclick="addToCart('60$ شحن ببجي')">
+    شحن الآن <i class="fas fa-bolt"></i>
+    </button>
+    </div>
+    </div>
+    
+    <div class="game-card">
+    <div class="game-img-box">
+    <img src="7cb12c2872143ce3cede5cf475afd106.jpg" alt="eFootball">
+    </div>
+    <div class="game-info">
+    <h3>eFootball</h3>
+    <p>كوينز وحزم</p>
+    <button class="topup-btn" onclick="addToCart('100$ شحن eFootball')">
+    شحن الآن <i class="fas fa-bolt"></i>
+    </button>
+    </div>
+    </div>
+    
+    <div class="game-card">
+    <div class="game-img-box">
+    <img src="e91564e68ec9ad355b10c1586a5b33c6.jpg" alt="FIFA">
+    </div>
+    <div class="game-info">
+    <h3>TikTok</h3>
+    <p>عملات تك توك</p>
+    <button class="topup-btn" onclick="addToCart('عملات تك توك $100')">
+    شحن الآن <i class="fas fa-bolt"></i>
+    </button>
+    </div>
+    </div>
+    
+    <div class="game-card more-games">
+    <div class="more-content">
+    <i class="fas fa-gamepad"></i>
+    <h3>كل الألعاب</h3>
+    <p>بطاقات جوجل بلاي، آيتونز، والمزيد</p>
+    <button class="topup-btn outline-btn" onclick="openWhatsApp('استفسار عن لعبة أخرى')">
+    تواصل معنا
+    </button>
+    </div>
+    </div>
+    </div>
+    
+    <div class="section-header" style="margin-top: 40px;">
+        <h2 class="section-title">خدمات ستارلينك 🛰️</h2>
+        <span class="view-all">إنترنت فضائي</span>
+    </div>
+    
+    <div class="starlink-container">
+        <div class="starlink-card">
+            <div class="sl-icon"><i class="fas fa-signal"></i></div>
+            <div class="sl-content">
+                <h3>تنشيط الباقات</h3>
+                <p>تفعيل فوري لجميع الباقات (Rider, Mobile, etc)</p>
+            </div>
+            <button class="sl-btn" onclick="openWhatsApp('تنشيط ستارلينك')">
+                <i class="fas fa-check"></i>
+            </button>
+        </div>
+    
+        <div class="starlink-card">
+            <div class="sl-icon"><i class="fas fa-tools"></i></div>
+            <div class="sl-content">
+                <h3>تركيب وبرمجة</h3>
+                <p>توجيه الصحن وتركيب الرواتر باحترافية</p>
+            </div>
+            <button class="sl-btn" onclick="openWhatsApp('تركيب ستارلينك')">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+        </div>
+    
+        <div class="starlink-card">
+            <div class="sl-icon"><i class="fas fa-headset"></i></div>
+            <div class="sl-content">
+                <h3>دعم فني وصيانة</h3>
+                <p>حل مشاكل الحسابات، النقل، وتوقف الخدمة</p>
+            </div>
+            <button class="sl-btn" onclick="openWhatsApp('صيانة ستارلينك')">
+                <i class="fas fa-wrench"></i>
+            </button>
+        </div>
+    </div>
+    
+    <div class="section-header" style="margin-top: 40px;" id="#Photo">
+        <h2 class="section-title">عدسة سمبل 📸</h2>
+        <span class="view-all">معرض الأعمال</span>
+    </div>
+    
+    <div class="gallery-scroll">
+        
+        <div class="photo-card">
+            <img src="IMG_0265 (2).jpg" alt="حياة شارع">
+            <div class="photo-overlay">
+                <span>حياة الشارع</span>
+            </div>
+        </div>
+    
+        <div class="photo-card">
+            <img src="IMG_8791.jpg" alt="فعاليات منظمات">
+            <div class="photo-overlay">
+                <span>فعاليات منظمات</span>
+            </div>
+        </div>
+    
+        <div class="photo-card">
+            <img src="FB_IMG_1763975106114.jpg" alt="اوت دور عقد">
+            <div class="photo-overlay">
+                <span>آوت دور عقد</span>
+            </div>
+        </div>
+    
+        <div class="photo-card">
+            <img src="IMG_9305 (2).jpg" alt="جلسات شبابية">
+            <div class="photo-overlay">
+                <span>جلسات شبابية</span>
+            </div>
+        </div>
+    
+        <div class="photo-card">
+            <img src="DSC00603.jpg" alt="طبيعة">
+            <div class="photo-overlay">
+                <span>الطبيعة</span>
+            </div>
+        </div>
+    
+        <div class="photo-card">
+            <img src="IMG_7817.jpg" alt="تفاصيل زفاف">
+            <div class="photo-overlay">
+                <span>زفاف</span>
+            </div>
+        </div>
+    
+        <div class="photo-card">
+            <img src="DSC01982.jpg" alt="تراث">
+            <div class="photo-overlay">
+                <span>حفلة حنة</span>
+            </div>
+        </div>
+    
+        <div class="photo-card">
+            <img src="_DSC0277.jpg" alt="فعاليات">
+            <div class="photo-overlay">
+                <span>فعاليات</span>
+            </div>
+        </div>
+         <div class="photo-card">
+            <img src="IMG_0222 (1).jpg" alt="الطبيعة">
+            <div class="photo-overlay">
+                <span>الطبيعة</span>
+            </div>
+        </div>
+    
+        <div class="photo-card">
+            <img src="IMG_8608 (3).jpg" alt="آوت دور">
+            <div class="photo-overlay">
+                <span>آوت دور</span>
+            </div>
+        </div>
+    
+    </div>
+    
+    <div class="section-header">
+    <h2 class="section-title">طرق الدفع المتاحة</h2>
+    </div><div class="payment-scroll">
+    <div class="payment-item">
+    <div class="pay-icon" style="color: #c0392b;"><i class="fas fa-university"></i></div>
+    <span>Bankak</span>
+    </div>
+    <div class="payment-item">
+    <div class="pay-icon" style="color: #f39c12;"><i class="fas fa-wallet"></i></div>
+    <span>My Cashi</span>
+    </div>
+    <div class="payment-item">
+    <div class="pay-icon" style="color: #f1c40f;"><i class="fab fa-bitcoin"></i></div>
+    <span>Binance</span>
+    </div>
+    <div class="payment-item">
+    <div class="pay-icon" style="color: #34495e;"><i class="fas fa-exchange-alt"></i></div>
+    <span>Bybit</span>
+    </div>
+    </div>
+    
+    <div class="quick-order-section">
+    <div class="quick-card">
+    <div class="quick-text">
+    <h3>خدمة مستعجلة؟ 🚀</h3>
+    <p>اختر خدمتك وسيتم تحويلك فوراً للمختص</p>
+    </div>
+    <div class="quick-actions">
+    <button class="quick-btn" onclick="openWhatsApp('طلب تصميم سريع')">
+    <i class="fas fa-pen-nib"></i> تصميم
+    </button>
+    <button class="quick-btn" onclick="openWhatsApp('طلب تصوير مستعجل')">
+    <i class="fas fa-camera"></i> تصوير
+    </button>
+    <button class="quick-btn" onclick="openWhatsApp('طلب مونتاج')">
+    <i class="fas fa-video"></i> مونتاج
+    </button>
+    <button class="quick-btn" onclick="openWhatsApp('صيانة ستارلينك')">
+    <i class="fas fa-satellite"></i> ستارلينك
+    </button>
+    </div>
+    </div>
+    </div>
+
+    <div class="contact-container">
+        <div class="section-header" style="padding:0; margin-bottom:15px;">
+            <h2 class="section-title">تواصل معنا</h2>
+        </div>
+        <div class="contact-card">
+            <form id="contactForm">
+                <input type="text" class="form-input" placeholder="الاسم الكامل" required>
+                <input type="tel" class="form-input" placeholder="رقم الهاتف" required>
+                <select class="form-input">
+                    <option>اختر الخدمة</option>
+                    <option>تصوير ومونتاج</option>
+                    <option>تصميم وبرمجة</option>
+                    <option>ستارلينك وألعاب</option>
+                </select>
+                <textarea class="form-input" rows="4" placeholder="تفاصيل مشروعك..."></textarea>
+                <button type="submit" class="hero-btn" style="width:100%; background: var(--primary); color: white; border: none;">
+                    إرسال الطلب
+                </button>
+            </form>
+            <div style="margin-top: 20px; text-align: center; color: var(--text-gray);">
+                <p><a href="‏https://wa.me/message/DGLDSERPZQFVN1"><i class="fab fa-whatsapp"></i></a> +249 925833517</p>
+                <p><i class="fas fa-envelope"></i> somblfon@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> السودان - نيالا</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Sombl Studio. جميع الحقوق محفوظة</p>
+        <div style="margin-top: 10px; font-size: 1.2rem;">
+          <a href="https://www.instagram.com/somblfon?igsh=MXE5aWJvb3NsaDkzaA==">
+            <i class="fab fa-instagram" style="margin: 0 10px;"></i>
+          </a>
+          <a href="https://www.facebook.com/alm.z.thman.hsn">
+            <i class="fab fa-facebook" style="margin: 0 10px;"></i>
+          </a>
+          <a href="https://x.com/somblfon?t=A95boRDHLMC--Pv8DIEoZg&s=09">
+            <i class="fab fa-twitter" style="margin: 0 10px;"></i>
+          </a>
+        </div>
+    </footer>
+
+    <nav class="bottom-nav">
+        <a href="#" class="nav-btn active">
+            <i class="fas fa-home"></i>
+            <span>الرئيسية</span>
+        </a>
+        <a href="#services" class="nav-btn">
+            <i class="fas fa-layer-group"></i>
+            <span>الخدمات</span>
+        </a>
+        <a href="#portfolio" class="nav-btn">
+            <i class="fas fa-images"></i>
+            <span>أعمالنا</span>
+        </a>
+        <a href="https://wa.me/message/DGLDSERPZQFVN1" class="nav-btn">
+            <i class="fas fa-comments"></i>
+            <span>تواصل</span>
+        </a>
+        <a href="#account" class="nav-btn">
+            <i class="fas fa-user"></i>
+            <span>حسابي</span>
+        </a>
+    </nav>
+
+    <div id="auth-overlay" class="overlay active">
+    <div class="auth-box">
+        <div class="logo-area">
+            <h2>SOMBL <span style="color:var(--main-red)">Studio</span></h2>
+            <p>مرحباً بك في عالم الإبداع</p>
+        </div>
+        
+        <form id="login-form" onsubmit="handleLogin(event)">
+            <h3>تسجيل الدخول</h3>
+            <input type="email" id="login-email" placeholder="البريد الإلكتروني" required>
+            <input type="password" placeholder="كلمة المرور" required>
+            <button type="submit" class="btn-primary">دخول</button>
+            <p class="switch-text" onclick="toggleAuth('signup')">ليس لديك حساب؟ سجل الآن</p>
+        </form>
+
+        <form id="signup-form" style="display:none;" onsubmit="handleSignup(event)">
+            <h3>حساب جديد</h3>
+            <input type="text" id="signup-name" placeholder="الاسم الكامل" required>
+            <input type="email" id="signup-email" placeholder="البريد الإلكتروني" required>
+            <input type="password" placeholder="كلمة المرور" required>
+            <button type="submit" class="btn-primary">إنشاء حساب</button>
+            <p class="switch-text" onclick="toggleAuth('login')">لديك حساب بالفعل؟ دخول</p>
+        </form>
+    </div>
+</div>
+
+<div id="cart-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('cart-modal')">&times;</span>
+        <h3>سلة الطلبات</h3>
+        <div id="cart-items-container">
+            <p style="text-align:center; color:#777;">السلة فارغة حالياً</p>
+        </div>
+        <div class="cart-total">
+            <h4>المجموع: <span id="cart-total-price">0</span> ج.س</h4>
+        </div>
+        <button class="btn-primary" onclick="checkout()">إتمام الطلب</button>
+    </div>
+</div>
+
+<div id="account-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('account-modal')">&times;</span>
+        <h3>ملفي الشخصي</h3>
+        <div class="profile-info">
+            <div class="avatar-circle">
+                <i class="fas fa-user"></i> </div>
+            <h4 id="user-name-display">اسم المستخدم</h4>
+            <p id="user-email-display">user@example.com</p>
+        </div>
+        <hr>
+        <button class="btn-logout" onclick="handleLogout()">تسجيل الخروج</button>
+    </div>
+</div>
+
+
+    <script>
+        // تفاعل بسيط للقائمة السفلية
+        const navBtns = document.querySelectorAll('.nav-btn');
+        navBtns.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                navBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+            });
+        });
+
+        // تفاعل التصنيفات
+        const chips = document.querySelectorAll('.category-chip');
+        chips.forEach(chip => {
+            chip.addEventListener('click', () => {
+                chips.forEach(c => c.classList.remove('active'));
+                chip.classList.add('active');
+            });
+        });
+
+        // نموذج التواصل
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert(' حبيبنا والله إستلمنا طلبك ! حنتواصل معاك .');
+            this.reset();
+        });
+
+
+         // ============================================
+// إعدادات المتجر (قم بتعديل هذا الرقم)
+// ============================================
+// ضع رقم واتساب الخاص بك هنا مع مفتاح الدولة (بدون + أو 00)
+// مثال للسودان: 249912345678
+const OWNER_PHONE = "249xxxxxxxxx"; 
+
+// ============================================
+// المتغيرات العامة
+// ============================================
+let cart = [];
+let currentUser = null;
+
+// تشغيل الكود عند تحميل الصفحة
+document.addEventListener('DOMContentLoaded', () => {
+    checkLoginStatus();
+    
+    // ربط زر الحساب
+    const accountBtn = document.querySelector('.fa-user')?.parentElement;
+    if(accountBtn) accountBtn.addEventListener('click', () => {
+        openModal('account-modal');
+        updateAccountUI();
+    });
+
+    // ربط زر السلة
+    const cartBtn = document.querySelector('.fa-shopping-cart')?.parentElement;
+    if(cartBtn) cartBtn.addEventListener('click', () => {
+        openModal('cart-modal');
+        renderCart();
+    });
+});
+
+// ============================================
+// دوال السلة والدفع (واتساب)
+// ============================================
+
+// دالة إضافة منتج للسلة (يتم استدعاؤها من HTML)
+function addToCart(serviceName, price) {
+    cart.push({ name: serviceName, price: price });
+    
+    // إظهار تنبيه صغير وسريع
+    const notification = document.createElement('div');
+    notification.innerText = `تمت إضافة "${serviceName}" للسلة`;
+    notification.style.cssText = `
+        position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+        background: #333; color: white; padding: 10px 20px; 
+        border-radius: 20px; z-index: 2000; animation: fadeInOut 2s forwards;
+    `;
+    document.body.appendChild(notification);
+    setTimeout(() => notification.remove(), 2000);
+}
+
+// دالة إتمام الطلب عبر واتساب (التعديل الجديد)
+function checkout() {
+    if (cart.length === 0) {
+        alert("السلة فارغة! قم بإضافة بعض الخدمات أولاً.");
+        return;
+    }
+
+    // 1. تحديد اسم العميل
+    let customerName = currentUser ? currentUser.name : "عميل (زائر)";
+    let customerEmail = currentUser ? currentUser.email : "غير مسجل";
+
+    // 2. حساب المجموع وتجهيز نص الرسالة
+    let total = 0;
+    let orderDetails = "";
+
+    cart.forEach((item) => {
+        orderDetails += `▫️ ${item.name}: ${item.price} ج.س\n`;
+        total += item.price;
+    });
+
+    // 3. تنسيق رسالة واتساب الاحترافية
+    let message = `*طلب جديد من متجر SOMBL Studio* 🎨\n\n`;
+    message += `👤 *العميل:* ${customerName}\n`;
+    message += `📧 *البريد:* ${customerEmail}\n`;
+    message += `----------------------------\n`;
+    message += `🛒 *الخدمات المطلوبة:*\n`;
+    message += `${orderDetails}`;
+    message += `----------------------------\n`;
+    message += `💰 *الإجمالي:* ${total} ج.س\n\n`;
+    message += `أرغب في إتمام هذا الطلب ✅`;
+
+    // 4. تشفير الرسالة وفتح واتساب
+    let url = `https://wa.me/${OWNER_PHONE}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+}
+
+// دالة عرض السلة داخل النافذة
+function renderCart() {
+    const container = document.getElementById('cart-items-container');
+    const totalEl = document.getElementById('cart-total-price');
+    
+    container.innerHTML = '';
+    let total = 0;
+
+    if (cart.length === 0) {
+        container.innerHTML = '<div style="text-align:center; padding:20px; color:#888"><i class="fas fa-shopping-basket fa-2x"></i><br>السلة فارغة</div>';
+    } else {
+        cart.forEach((item, index) => {
+            total += item.price;
+            container.innerHTML += `
+                <div class="cart-item">
+                    <div style="font-weight:bold">${item.name}</div>
+                    <div style="display:flex; align-items:center; gap:10px;">
+                        <span style="color:var(--main-red);">${item.price}</span>
+                        <i class="fas fa-trash-alt" style="color:#aaa; cursor:pointer;" onclick="removeFromCart(${index})"></i>
+                    </div>
+                </div>
+            `;
+        });
+    }
+    totalEl.innerText = total;
+}
+
+function removeFromCart(index) {
+    cart.splice(index, 1);
+    renderCart();
+}
+
+// ============================================
+// دوال المصادقة (Auth) - محاكاة
+// ============================================
+function checkLoginStatus() {
+    const savedUser = localStorage.getItem('sombl_user');
+    if (savedUser) {
+        currentUser = JSON.parse(savedUser);
+        document.getElementById('auth-overlay').classList.remove('active');
+    } else {
+        document.getElementById('auth-overlay').classList.add('active');
+    }
+}
+
+function handleSignup(e) {
+    e.preventDefault();
+    const name = document.getElementById('signup-name').value;
+    const email = document.getElementById('signup-email').value;
+    currentUser = { name: name, email: email };
+    localStorage.setItem('sombl_user', JSON.stringify(currentUser));
+    document.getElementById('auth-overlay').classList.remove('active');
+}
+
+function handleLogin(e) {
+    e.preventDefault();
+    const email = document.getElementById('login-email').value;
+    // هنا نفترض أن الدخول ناجح دائماً لأي بريد (محاكاة)
+    // يمكنك تحسينها لاحقاً لجلب الاسم من قاعدة بيانات حقيقية
+    currentUser = { name: "عميل مميز", email: email }; 
+    localStorage.setItem('sombl_user', JSON.stringify(currentUser));
+    document.getElementById('auth-overlay').classList.remove('active');
+}
+
+function handleLogout() {
+    localStorage.removeItem('sombl_user');
+    currentUser = null;
+    cart = [];
+    closeModal('account-modal');
+    location.reload();
+}
+
+function toggleAuth(type) {
+    if(type === 'signup') {
+        document.getElementById('login-form').style.display = 'none';
+        document.getElementById('signup-form').style.display = 'block';
+    } else {
+        document.getElementById('signup-form').style.display = 'none';
+        document.getElementById('login-form').style.display = 'block';
+    }
+}
+
+// ============================================
+// دوال المودال (الفتح والإغلاق)
+// ============================================
+function openModal(id) { document.getElementById(id).classList.add('active'); }
+function closeModal(id) { document.getElementById(id).classList.remove('active'); }
+
+function updateAccountUI() {
+    if(currentUser) {
+        document.getElementById('user-name-display').innerText = currentUser.name;
+        document.getElementById('user-email-display').innerText = currentUser.email;
+    }
+}
+
+// إضافة انيميشن CSS بسيط للإشعار
+const styleSheet = document.createElement("style");
+styleSheet.innerText = `
+    @keyframes fadeInOut {
+        0% { opacity: 0; bottom: 10px; }
+        20% { opacity: 1; bottom: 30px; }
+        80% { opacity: 1; bottom: 30px; }
+        100% { opacity: 0; bottom: 50px; }
+    }
+`;
+document.head.appendChild(styleSheet);
+
+
+    </script>
+</body>
+</html>
