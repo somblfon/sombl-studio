@@ -478,8 +478,22 @@
             <h2>SOMBL <span style="color:var(--main-red)">Studio</span></h2>
             <p>مرحباً بك في عالم الإبداع</p>
         </div>
-        
-        
+        <form id="login-form" onsubmit="handleLogin(event)">
+            <h3>تسجيل الدخول</h3>
+            <input type="email" id="login-email" placeholder="البريد الإلكتروني" required>
+            <input type="password" placeholder="كلمة المرور" required>
+            <button type="submit" class="btn-primary">دخول</button>
+            <p class="switch-text" onclick="toggleAuth('signup')">ليس لديك حساب؟ سجل الآن</p>
+        </form>
+
+        <form id="signup-form" style="display:none;" onsubmit="handleSignup(event)">
+            <h3>حساب جديد</h3>
+            <input type="text" id="signup-name" placeholder="الاسم الكامل" required>
+            <input type="email" id="signup-email" placeholder="البريد الإلكتروني" required>
+            <input type="password" placeholder="كلمة المرور" required>
+            <button type="submit" class="btn-primary">إنشاء حساب</button>
+            <p class="switch-text" onclick="toggleAuth('login')">لديك حساب بالفعل؟ دخول</p>
+        </form>        
     </div>
 </div>
 
