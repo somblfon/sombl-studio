@@ -559,7 +559,7 @@
 // ============================================
 // ضع رقم واتساب الخاص بك هنا مع مفتاح الدولة (بدون + أو 00)
 // مثال للسودان: 249912345678
-const OWNER_PHONE = "249xxxxxxxxx"; 
+const OWNER_PHONE = "249925833517"; 
 
 // ============================================
 // المتغيرات العامة
@@ -677,7 +677,7 @@ function removeFromCart(index) {
 // ============================================
 // دوال المصادقة (Auth) - محاكاة
 // ============================================
-function checkLoginStatus() {
+functon checkLoginStatus() {
     const savedUser = localStorage.getItem('sombl_user');
     if (savedUser) {
         currentUser = JSON.parse(savedUser);
@@ -687,7 +687,7 @@ function checkLoginStatus() {
     }
 }
 
-function handleSignup(e) {
+functon handleSignup(e) {
     e.preventDefault();
     const name = document.getElementById('signup-name').value;
     const email = document.getElementById('signup-email').value;
